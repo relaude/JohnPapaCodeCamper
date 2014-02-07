@@ -1,0 +1,40 @@
+﻿
+<section id="session-view" class="view">
+    
+    <form data-bind="submit : register" class="form-horizontal">
+        <div data-bind="validationElement: username" class="control-group">
+        <label class="control-label" for="inputEmail">Username</label>
+        <div class="controls">
+            <input data-bind="value: username" type="text" placeholder="Username" />
+        </div>
+        </div>
+
+        <div data-bind="validationElement: email" class="control-group">
+        <label class="control-label" for="username">Email</label>
+        <div class="controls">
+            <input class="form-control" type="text"  data-bind="value: email" placeholder="Email" />
+        </div>
+        </div>
+
+        <div data-bind="validationElement: password" class="control-group">
+        <label class="control-label" for="username">Password</label>
+        <div class="controls">
+            <input class="form-control" type="password"  data-bind="value: password" placeholder="Password" />
+        </div>
+        </div>
+
+        <div class="control-group" data-bind="validationElement: confirmpassword">
+        <label class="control-label" for="email">ConfirmPassword</label>
+        <div class="controls">
+            <input class="form-control" type="password"  data-bind="value: confirmpassword" placeholder="Confirm Password">  
+        </div>
+
+        <div class="control-group" style="padding-top: 10px">
+            <div class="controls">
+                <button type="submit" class="btn btn-primary">Register</button>
+                <button type="reset" class="btn btn-default">Reset</button>
+            </div>
+        </div>
+    </div>
+    </form>
+</section>
