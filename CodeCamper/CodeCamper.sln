@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codecamper.web", "codecamper.web\codecamper.web.csproj", "{45F28B95-4A81-40B9-B169-F2EAA039C6F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EF030B11-702D-46A5-91E5-A994ADC2F386}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{2C03BECE-AE7E-49D2-9B8C-EB8B6B39FFAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{1AC2D751-BC21-413C-BD6E-89F35DF6DB65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\DataModel.csproj", "{A77634CA-AF6C-449B-A34A-D5E58ACA159A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceLayer", "ServiceLayer", "{F1EF75E6-583E-4EBD-AB2D-C88696CF982E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{34F1F8C9-5B61-4A03-9805-F2CC972493C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicePovider", "ServicePovider\ServicePovider.csproj", "{494B72AD-1999-407F-8C8F-C4B851F4AA09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45F28B95-4A81-40B9-B169-F2EAA039C6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F28B95-4A81-40B9-B169-F2EAA039C6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F28B95-4A81-40B9-B169-F2EAA039C6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F28B95-4A81-40B9-B169-F2EAA039C6F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AC2D751-BC21-413C-BD6E-89F35DF6DB65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC2D751-BC21-413C-BD6E-89F35DF6DB65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC2D751-BC21-413C-BD6E-89F35DF6DB65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC2D751-BC21-413C-BD6E-89F35DF6DB65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A77634CA-AF6C-449B-A34A-D5E58ACA159A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A77634CA-AF6C-449B-A34A-D5E58ACA159A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A77634CA-AF6C-449B-A34A-D5E58ACA159A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A77634CA-AF6C-449B-A34A-D5E58ACA159A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34F1F8C9-5B61-4A03-9805-F2CC972493C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F1F8C9-5B61-4A03-9805-F2CC972493C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F1F8C9-5B61-4A03-9805-F2CC972493C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F1F8C9-5B61-4A03-9805-F2CC972493C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{494B72AD-1999-407F-8C8F-C4B851F4AA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{494B72AD-1999-407F-8C8F-C4B851F4AA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{494B72AD-1999-407F-8C8F-C4B851F4AA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{494B72AD-1999-407F-8C8F-C4B851F4AA09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1AC2D751-BC21-413C-BD6E-89F35DF6DB65} = {2C03BECE-AE7E-49D2-9B8C-EB8B6B39FFAB}
+		{A77634CA-AF6C-449B-A34A-D5E58ACA159A} = {2C03BECE-AE7E-49D2-9B8C-EB8B6B39FFAB}
+		{34F1F8C9-5B61-4A03-9805-F2CC972493C3} = {F1EF75E6-583E-4EBD-AB2D-C88696CF982E}
+		{494B72AD-1999-407F-8C8F-C4B851F4AA09} = {F1EF75E6-583E-4EBD-AB2D-C88696CF982E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,34 @@
+﻿
+<section id="session-view" class="view">
+    
+    <form class="form-horizontal">
+        <div data-bind="validationElement: username" class="control-group">
+        <label class="control-label" for="inputEmail">Username</label>
+        <div class="controls">
+            <input data-bind="value: username" type="text" placeholder="Username">
+        </div>
+        </div>
+
+        <div data-bind="validationElement: password" class="control-group">
+        <label class="control-label" for="inputPassword">Password</label>
+        <div class="controls">
+            <input data-bind="value: password" type="password" placeholder="Password">
+        </div>
+        </div>
+
+        <div class="control-group">
+        <div class="controls">
+            <label class="checkbox">
+            <input type="checkbox" data-bind="value: rememberMe"> Remember me
+            </label>
+            <button data-bind="click: login" type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+        </div>
+
+        <div class="control-group">
+        <div class="controls">
+            <p><a class="btn btn-info" href="/#/register">Register</a> if don't have and account?</p>
+        </div>
+        </div>
+    </form>
+</section>
